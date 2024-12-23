@@ -17,9 +17,6 @@ class Program
     Console.WriteLine("\nDigite o nome do terceiro aluno: ");
     aluno3 = Console.ReadLine();
 
-    //Quantidade de notas
-    int notas = 3;
-
     //Nota dos alunos:
     Console.WriteLine($"\nDigite a primeira nota do aluno {aluno1}");
     nota1_1 = int.Parse(Console.ReadLine());
@@ -52,6 +49,9 @@ class Program
     int alunoSoma1 = nota1_1 + nota1_2 + nota1_3;
     int alunoSoma2 = nota2_1 + nota2_2 + nota2_3;
     int alunoSoma3 = nota3_1 + nota3_2 + nota3_3;
+
+    //Quantidade de notas
+    int notas = 3;
 
     //media das notas:
     decimal alunoMedia1 = alunoSoma1 / notas;
