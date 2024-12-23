@@ -36,3 +36,37 @@ class Program
     aluno3 = Console.ReadLine();
 
 ~~~
+
+- Tendo os nomes dos alunos declarados, poderemos dar suas notas respectivamente:
+
+~~~csharp
+
+//Nota dos alunos:
+    Console.WriteLine($"\nDigite a primeira nota do aluno {aluno1}");
+    nota1_1 = int.Parse(Console.ReadLine());
+
+    Console.WriteLine($"\nDigite a segunda nota do aluno {aluno1}");
+    nota1_2 = int.Parse(Console.ReadLine());
+
+    Console.WriteLine($"\nDigite a terceira nota do aluno {aluno1}");
+    nota1_3 = int.Parse(Console.ReadLine());
+
+    Console.WriteLine($"\nDigite a primeira nota do aluno {aluno2}");
+    nota2_1 = int.Parse(Console.ReadLine());
+
+    Console.WriteLine($"\nDigite a segunda nota do aluno {aluno2}");
+    nota2_2 = int.Parse(Console.ReadLine());
+
+    Console.WriteLine($"\nDigite a terceira nota do aluno {aluno2}");
+    nota2_3 = int.Parse(Console.ReadLine());
+
+    Console.WriteLine($"\nDigite a primeira nota do aluno {aluno3}");
+    nota3_1 = int.Parse(Console.ReadLine());
+
+    Console.WriteLine($"\nDigite a segunda nota do aluno {aluno3}");
+    nota3_2 = int.Parse(Console.ReadLine());
+
+    Console.WriteLine($"\nDigite a terceira nota do aluno {aluno3}");
+    nota3_3 = int.Parse(Console.ReadLine());
+
+~~~
