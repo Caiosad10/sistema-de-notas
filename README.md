@@ -8,7 +8,7 @@
 
 #### Código:
 
-- Em primeira parte iremos criar nossas variáveis:
+- Em primeira parte iremos criar nossas variáveis para armazenar os nomes dos alunos e suas notas:
 
 ~~~csharp
 
@@ -68,5 +68,24 @@ class Program
 
     Console.WriteLine($"\nDigite a terceira nota do aluno {aluno3}");
     nota3_3 = int.Parse(Console.ReadLine());
+
+~~~
+
+- Definindo a nota de cada aluno, podemos criar os cálculos para somar as notas e tirar a sua média:
+
+~~~csharp
+
+    //soma das notas:
+    int alunoSoma1 = nota1_1 + nota1_2 + nota1_3;
+    int alunoSoma2 = nota2_1 + nota2_2 + nota2_3;
+    int alunoSoma3 = nota3_1 + nota3_2 + nota3_3;
+
+    //Variável para armazenar a quantidade de notas para posteriormente obter a média
+    int notas = 3;
+
+    //media das notas:
+    decimal alunoMedia1 = alunoSoma1 / notas;
+    decimal alunoMedia2 = alunoSoma2 / notas;
+    decimal alunoMedia3 = alunoSoma3 / notas;
 
 ~~~
