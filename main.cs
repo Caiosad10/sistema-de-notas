@@ -50,7 +50,7 @@ class Program
     int alunoSoma2 = nota2_1 + nota2_2 + nota2_3;
     int alunoSoma3 = nota3_1 + nota3_2 + nota3_3;
 
-    //Quantidade de notas
+    //Variável para armazenar a quantidade de notas para posteriormente obter a média
     int notas = 3;
 
     //media das notas:
