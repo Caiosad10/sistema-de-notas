@@ -117,3 +117,20 @@ class Program
 ~~~
 
 **_O código se repete e é criado também as variáveis para armazenar a avaliação da média dos outros alunos_**
+
+---
+
+Estrutura do código finalizada. Por fim, adicionamos a lógica para aparecer na tela as informações organizadas:
+
+~~~cscharp
+
+    Console.WriteLine("\nAlunos\t\tNotas\t\tResultado\n");
+    Console.WriteLine($"{aluno1}\t\t{alunoMedia1}\t\t{media1}");
+    Console.WriteLine($"{aluno2}\t\t{alunoMedia2}\t\t{media2}");
+    Console.WriteLine($"{aluno3}\t\t{alunoMedia3}\t\t{media3}");
+
+  }   
+
+}
+
+~~~
