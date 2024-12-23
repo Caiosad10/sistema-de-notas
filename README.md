@@ -10,3 +10,11 @@
 
 - Em primeira parte iremos criar nossas variaveis
 
+~~csharp
+class Program
+{
+  static void Main()
+  {
+    string aluno1, aluno2, aluno3;
+    int nota1_1, nota1_2, nota1_3, nota2_1, nota2_2, nota2_3, nota3_1, nota3_2, nota3_3;
+~~~
