@@ -108,7 +108,11 @@ class Program
     else if (alunoMedia3 <=10){
       media3 = "Excelente";
     }
+
+    
     //frequencia presencial:
+
+  
     //Implementar posteriormente após deixar o codigo mais limpo
 
 
