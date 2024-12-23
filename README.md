@@ -1,5 +1,10 @@
-# Sistema de notas de alunos em C#
+# Sistema de notas de alunos em C# (Projeto em desenvolvimento)
 
-- Será feito a redução do codigo com o passar do tempo
+### O código escrito ate o momento tem como propósito conter 3 alunos. Esses alunos devem receber 3 notas e, dessas 3 notas será feito um cálculo para tirar a média e ter a nota final. Após a média, será mostrado os nomes com as respectivas notas finais e ao lado um palavra de avaliação condizente com a noite
 
-## Isso é um teste, na qual estou criando este projeto com a intenção de fazer algo "complexo" logo no inicio dos estudos, e conforme eu for ganhando conhecimento sobre os outros aspectos, ir reduzindo ele e adicionando mais funcionalidades!
+---
+
+#### Código:
+
+- Em primeira parte 
+
