@@ -8,5 +8,5 @@
 
 #### Código:
 
-- Em primeira parte 
+- Em primeira parte iremos criar nossas variaveis
 
