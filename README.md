@@ -89,3 +89,60 @@ class Program
     decimal alunoMedia3 = alunoSoma3 / notas;
 
 ~~~
+
+- Decidi implementar também uma categorização (avalização) de notas, onde, dependendo da nota, possa dizer se é ` Péssimo `, `Ruim`, `Regular`,`Bom`, `Excelente`
+
+~~~csharp
+
+    //categorização das notas:
+
+    string media1 = "", media2 = "", media3 = "";
+
+    if (alunoMedia1 <=2){
+      media1 = "Pessimo";
+    }
+    else if (alunoMedia1 <=4){
+      media1 = "Ruim";
+    }
+    else if (alunoMedia1 <=6){
+      media1 = "Regular";
+    }
+    else if (alunoMedia1 <=8){
+      media1 = "Bom";
+    }
+    else if (alunoMedia1 <=10){
+      media1 = "Excelente";
+    }
+
+    if (alunoMedia2 <=2){
+      media2 = "Pessimo";
+    }
+    else if (alunoMedia2 <=4){
+      media2 = "Ruim";
+    }
+    else if (alunoMedia2 <=6){
+      media2 = "Regular";
+    }
+    else if (alunoMedia2 <=8){
+      media2 = "Bom";
+    }
+    else if (alunoMedia2 <=10){
+      media2 = "Excelente";
+    }
+    if (alunoMedia3 <=2){
+      media3 = "Pessimo";
+    }
+    else if (alunoMedia3 <=4){
+      media3 = "Ruim";
+    }
+    else if (alunoMedia3 <=6){
+      media3 = "Regular";
+    }
+    else if (alunoMedia3 <=8){
+      media3 = "Bom";
+    }
+    else if (alunoMedia3 <=10){
+      media3 = "Excelente";
+    }
+
+~~~
