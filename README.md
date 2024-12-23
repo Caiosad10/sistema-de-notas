@@ -116,4 +116,4 @@ class Program
 
 ~~~
 
-*_O código se repete e é criado também as variáveis para armazenar a avaliação da média dos outros alunos_*
+**_O código se repete e é criado também as variáveis para armazenar a avaliação da média dos outros alunos_**
