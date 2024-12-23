@@ -134,3 +134,7 @@ Estrutura do código finalizada. Por fim, adicionamos a lógica para aparecer na
 }
 
 ~~~
+
+O resultado é este:
+
+![image](https://github.com/user-attachments/assets/e059fc2e-8429-4f4b-8884-6b0dded70657)
