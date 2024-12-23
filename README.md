@@ -8,7 +8,7 @@
 
 #### Código:
 
-- Em primeira parte iremos criar nossas variaveis
+- Em primeira parte iremos criar nossas variáveis:
 
 ~~~csharp
 
@@ -18,5 +18,21 @@ class Program
   {
     string aluno1, aluno2, aluno3;
     int nota1_1, nota1_2, nota1_3, nota2_1, nota2_2, nota2_3, nota3_1, nota3_2, nota3_3;
+
+~~~
+
+- Após determinar as variáveis, iremos pedir ao usuário que insira o nome dos alunos:
+
+~~~csharp
+
+    //Nomes dos alunos
+    Console.WriteLine("Digite o nome do primeiro aluno: ");
+    aluno1 = Console.ReadLine();
+
+    Console.WriteLine("\nDigite o nome do segundo aluno: ");
+    aluno2 = Console.ReadLine(); 
+
+    Console.WriteLine("\nDigite o nome do terceiro aluno: ");
+    aluno3 = Console.ReadLine();
 
 ~~~
